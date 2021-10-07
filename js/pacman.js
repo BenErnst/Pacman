@@ -114,13 +114,13 @@ function isAllFoodGone() {
 function getPacmanHTML(event) {
     switch (event.key) {
         case 'ArrowUp':
-            return `<img src="img/pacman_up.PNG">`;
+            return `<img src="img/pacman_up.png">`;
         case 'ArrowDown':
-            return `<img src="img/pacman_down.PNG">`;
+            return `<img src="img/pacman_down.png">`;
         case 'ArrowLeft':
-            return `<img src="img/pacman_left.PNG">`;
+            return `<img src="img/pacman_left.png">`;
         case 'ArrowRight':
-            return `<img src="img/pacman_right.PNG">`;
+            return `<img src="img/pacman_right.png">`;
         default:
             return null;
     }

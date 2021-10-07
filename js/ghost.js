@@ -98,7 +98,7 @@ function getMoveDiff() {
 
 function getGhostHTML(id) {
     var weakGhostStrHtml = '<span>👻</span>';
-    var strongGhostStrHtml = `<span><img src="img/ghost${id}.PNG"></span>`;
+    var strongGhostStrHtml = `<span><img src="img/ghost${id}.png"></span>`;
     return (gPacman.isSuper) ? weakGhostStrHtml : strongGhostStrHtml;
 }
 
